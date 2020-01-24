@@ -71,13 +71,13 @@ body {
 	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 .image:before {
-	background: #f5cec6;
+	background: #f3f8f8;
 	top: 0px;
 	left: -10px;
 	transform: rotate(-5deg);
 }
 .image:after {
-	background: #dcb8b2;
+	background: #292c2c;
 	top: 5px;
 	left: 0px;
 	transform: rotate(4deg);
