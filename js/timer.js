@@ -74,39 +74,39 @@ const changeImage = time => {
     if (time >= 0 && time < 2) {
         changeImage(0);
     } else if (time >= 2 && time < 4) {
-        changeImage(1);
-    } else if (time >= 4 && time < 6) {
-        changeImage(2);
-    } else if (time >= 6 && time < 8) {
-        changeImage(3);
-    } else if (time >= 8 && time < 10) {
-        changeImage(4);
-    } else if (time >= 10 && time < 12) {
-        changeImage(5);
-    } else if (time >= 12 && time < 14) {
-        changeImage(6);
-    } else if (time >= 14 && time < 16) {
-        changeImage(7);
-    } else if (time >= 16 && time < 18) {
-        changeImage(8);
-    } else if (time >= 18 && time < 20) {
-        changeImage(9);
-    } else if (time >= 20 && time < 22) {
-        changeImage(10);
-    } else if (time >= 22 && time < 24) {
-        changeImage(11);
-    } else if (time >= 24 && time < 26) {
-        changeImage(12);
-    } else if (time >= 26 && time < 28) {
-        changeImage(13);
-    } else if (time >= 28 && time < 30) {
-        changeImage(14);
-    } else if (time >= 30 && time < 32) {
-        changeImage(15);
-    } else if (time >= 32 && time < 34) {
         changeImage(16);
+    } else if (time >= 4 && time < 6) {
+        changeImage(15);
+    } else if (time >= 6 && time < 8) {
+        changeImage(14);
+    } else if (time >= 8 && time < 10) {
+        changeImage(13);
+    } else if (time >= 10 && time < 12) {
+        changeImage(12);
+    } else if (time >= 12 && time < 14) {
+        changeImage(11);
+    } else if (time >= 14 && time < 16) {
+        changeImage(10);
+    } else if (time >= 16 && time < 18) {
+        changeImage(9);
+    } else if (time >= 18 && time < 20) {
+        changeImage(8);
+    } else if (time >= 20 && time < 22) {
+        changeImage(7);
+    } else if (time >= 22 && time < 24) {
+        changeImage(6);
+    } else if (time >= 24 && time < 26) {
+        changeImage(5);
+    } else if (time >= 26 && time < 28) {
+        changeImage(4);
+    } else if (time >= 28 && time < 30) {
+        changeImage(3);
+    } else if (time >= 30 && time < 32) {
+        changeImage(2);
+    } else if (time >= 32 && time < 34) {
+        changeImage(1);
     } else if (time >= 34 && time < 38) {
-        changeImage(17);
+        changeImage(0);
     } else {
         changeImage(0);
     }
