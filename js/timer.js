@@ -18,7 +18,7 @@ class CountdownTimer {
         const mins = Math.floor((time % (1000 * 60 * 60)) / (1000 * 60));
         const secs = Math.floor((time % (1000 * 60)) / 1000);
 
-        changeImage(days);
+        changeImage(hours);
 
         this.refs.dayTitle.innerHTML = String(days).padStart(2, "0");
         this.refs.hoursTitle.innerHTML = String(hours).padStart(2, "0");
